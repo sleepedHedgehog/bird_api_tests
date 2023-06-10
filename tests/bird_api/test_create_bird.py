@@ -24,7 +24,6 @@ def check_response(workplace, resp, curr_date, **kwargs):
 
     assert_objects_are_equal(data)
 
-
 class TestCreateBird:
 
     @testit.workItemIds(123)
